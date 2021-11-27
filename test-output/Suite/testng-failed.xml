@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.tests.Travel">
+        <methods>
+          <include name="initialize"/>
+          <include name="Trav"/>
+        </methods>
+      </class> <!-- com.tests.Travel -->
+      <class name="com.tests.godady123">
+        <methods>
+          <include name="TearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.godady123 -->
+      <class name="com.tests.OrangeHrmTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.tests.OrangeHrmTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
